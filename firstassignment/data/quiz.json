@@ -1,0 +1,53 @@
+{"terms":[
+	{"term1": "Variable"},
+	{"term2": "Function"},
+	{"term3": "Null"},
+	{"term4": "Method"}
+	{"term5": "Statement"},
+	{"term6": "Expression"},
+	{"term7": "Initializer Expression"},
+	{"term8": "Lexcial Structure"},
+	{"term9": "Control Structure"},
+	{"term10": "Literal"},
+	{"term11": "Identifier"},
+	{"term12": "Primitive Types"},
+	{"term13": "Object Types"},
+	{"term14": "Contructors"}
+	{"term15": "Object Class"},
+	{"term16": "Mutable Type"},
+	{"term17": "Immutable Type"},
+	{"term18": "Lexical Scope"},
+	{"term19": "Function Scope"}
+	{"term20": "Numeric Literal"},
+	{"term21": "NaN"},
+	{"term22": "Global Object"},
+	{"term24": "Boolean Operators"}
+	{"term25": "Undefined"},
+]}
+"questions": [
+	{"question1": "Where values are stored and retrieved. Each holding place has a unique name, which is any combination of letters and numbers that does not begin with a number? "},
+	{"question2": "What can be thought of as processing units that accept data from one end and produce results at the other? "},
+	{"question3": "What is a JavaScript language keyword that is an object that represents the absence of a value?"},
+	{"question4": "What function defined in an object?"}
+	{"question5": "What is a JavaScript command, terminated with a semicolon that are executed to make something happen?"},
+	{"question6": "What is a phrase of JavaScript that can be evaluated to produce a value?"},
+	{"question7": "What is the syntax for listing array elements within square braces or mapping object property names to property values inside curly braces?"},
+	{"question8": "What is a set of elementary rules that specifies how you write programs in a programming language?"},
+	{"question9": "What are statements that are conditionals or loops?"},
+	{"question10": "What is a data value that appears directly in a program?"},
+	{"question11": "What is a name used to name variables and functions and to provide labels for certain loops in JavaScript code?"},
+	{"question12": "What are numbers, strings of text, Boolean truth values, null and undefineds?"},
+	{"question13": "What are arrays, functions and global objects?"},
+	{"question14": "Contructors"},
+	{"question15": "What are functions that are written to be used (with the new operator) to initialize a newly created object?"},
+	{"tquestion16": "Any JavaScript type that can be changed, like objects and arrays."},
+	{"question17": "Any JavaScript type that cannot be changed, like numbers, booleans, null, undefined, and strings (yes, strings!)"},
+	{"question18": "What are scope of variables that are declared outside of a function, are global variables and are visible everywhere in a JavaScript program?"},
+	{"question19": "What are variables declared inside a function have function scope and are visible only to code that appears inside that function?"},
+	{"question20": "What is a number that appears directly in a JavaScript program?"},
+	{"question21": "What is another word for Not a number?"},
+	{"question22": "What are values that evaluate to boolean true or false but that aren't actually boolean values of true or false."},
+	{"question23": "What are defined symbols that are available to a JavaScript program like undefined, Infinity, NaN, isNaN(), parseInt(), eval(), Date(), RegExp(), String(), Object(), Array(), Math and JSON"},
+	{"question24": "What are &&, || and ! called?"},
+	{"question25": "What is a predefined global variable that is the value of a variable or object that has not been initialized, or of a function that returns no value."},
+]}

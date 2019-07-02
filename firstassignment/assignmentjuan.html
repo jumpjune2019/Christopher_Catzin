@@ -1,0 +1,64 @@
+<!DOCTYPE html >
+<html>
+<head>
+	<title>Drag Drop - quiz script</title>
+	<link rel="stylesheet" href="css/assignmentjuan.css">
+	<script src="scripts/assignmentjuan.js"> </script>
+	<script src="scripts/stopwatch.js"> </script>
+
+	
+</head>
+<body>
+	<h1> Math Quiz Game </h1>
+	<div id="display"> 00:00:00 </div>
+	<div class="buttons">
+		<button id="play" onclick="startStop()"> Play </button>
+		<button id="playAgain" onclick="reset()"> Play Again </button>
+		<button id="showScore"> Show Score </button>
+	</div>
+	<div id="quizBorder">
+		<div id="dragScriptContainer"> 
+			<div id="questionDiv">
+				<div class="dragDropSmallBox" id="q1">5x1</div>
+				<div class="destinationBox"></div>
+				<div class="dragDropSmallBox" id="q2">5x2</div>
+				<div class="destinationBox"></div>
+				<div class="dragDropSmallBox" id="q3">5x3</div>
+				<div class="destinationBox"></div>
+				<div class="dragDropSmallBox" id="q4">5x4</div>
+				<div class="destinationBox"></div>
+				<div class="dragDropSmallBox" id="q5">5x5</div>
+				<div class="destinationBox"></div>
+				<div class="dragDropSmallBox" id="q6">5x6</div>
+				<div class="destinationBox"></div>
+				<div class="dragDropSmallBox" id="q7">5x7</div>
+				<div class="destinationBox"></div>
+				<div class="dragDropSmallBox" id="q8">5x8</div>
+				<div class="destinationBox"></div>
+				<div class="dragDropSmallBox" id="q9">5x9</div>
+				<div class="destinationBox"></div>
+				<div class="dragDropSmallBox" id="q10">5x10</div>
+				<div class="destinationBox"></div>
+	
+			</div>
+	
+	
+			<div id="answerDiv">
+				<div class="dragDropSmallBox" id="a1">5</div>
+				<div class="dragDropSmallBox" id="a2">10</div>
+				<div class="dragDropSmallBox" id="a3">15</div>
+				<div class="dragDropSmallBox" id="a4">20</div>
+				<div class="dragDropSmallBox" id="a5">25</div>
+				<div class="dragDropSmallBox" id="a6">30</div>
+				<div class="dragDropSmallBox" id="a7">35</div>
+				<div class="dragDropSmallBox" id="a8">40</div>
+				<div class="dragDropSmallBox" id="a9">45</div>
+				<div class="dragDropSmallBox" id="a10">50</div>	
+			</div>
+		</div>
+
+		<div id="dragContent"></div>
+		<input type="button" onclick="dragDropResetForm();return false" value="Reset">
+	</div>
+</body>
+</html>
