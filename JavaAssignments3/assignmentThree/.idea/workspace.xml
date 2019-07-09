@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be999acb-c1a7-44fa-b5fb-352ccb344cad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignmentSeven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignmentSeven.java" afterDir="false" />
-    </list>
+    <list default="true" id="d288d6c4-085a-4c93-9ecf-c9dcbf543fa7" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,10 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/assignmentSeven.java">
+        <entry file="file://$PROJECT_DIR$/src/assignmentThree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            <state relative-caret-position="407">
+              <caret line="88" column="73" lean-forward="true" selection-start-line="88" selection-start-column="73" selection-end-line="88" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -39,13 +35,12 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/assignmentSeven.java" />
+        <option value="$PROJECT_DIR$/src/readFileOne" />
+        <option value="$PROJECT_DIR$/src/readFileTwo" />
+        <option value="$PROJECT_DIR$/src/assignmentThree.java" />
       </list>
     </option>
   </component>
@@ -55,15 +50,32 @@
     <option name="width" value="1302" />
     <option name="height" value="816" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="assignmentThree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignmentThree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignmentThree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignmentThree" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -82,16 +94,16 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="assignmentSeven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="assignmentSeven" />
-      <module name="Assignment 7" />
+    <configuration name="assignmentThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assignmentThree" />
+      <module name="assignmentThree" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.assignmentSeven" />
+        <item itemvalue="Application.assignmentThree" />
       </list>
     </recent_temporary>
   </component>
@@ -100,11 +112,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="be999acb-c1a7-44fa-b5fb-352ccb344cad" name="Default Changelist" comment="" />
-      <created>1562533193702</created>
+      <changelist id="d288d6c4-085a-4c93-9ecf-c9dcbf543fa7" name="Default Changelist" comment="" />
+      <created>1562617673378</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1562533193702</updated>
+      <updated>1562617673378</updated>
     </task>
     <servers />
   </component>
@@ -112,7 +124,7 @@
     <frame x="138" y="23" width="1302" height="816" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24899058" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25396827" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -120,9 +132,9 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32872927" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32872927" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39917126" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -141,10 +153,12 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/assignmentSeven.java">
+    <entry file="file://$PROJECT_DIR$/src/readFileTwo" />
+    <entry file="file://$PROJECT_DIR$/src/readFileOne" />
+    <entry file="file://$PROJECT_DIR$/src/assignmentThree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        <state relative-caret-position="407">
+          <caret line="88" column="73" lean-forward="true" selection-start-line="88" selection-start-column="73" selection-end-line="88" selection-end-column="73" />
         </state>
       </provider>
     </entry>

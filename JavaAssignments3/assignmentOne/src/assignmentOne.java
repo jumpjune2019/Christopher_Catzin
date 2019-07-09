@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.Random;
 import java.util.Scanner;
 
-public class assignmentSeven {
+public class assignmentOne {
 
     private static final Random randGen = new Random();
     private static final Scanner scnr = new Scanner(System.in);
