@@ -1,6 +1,6 @@
+import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.Scanner;
 
 public class assignmentFour {
@@ -46,7 +46,7 @@ public class assignmentFour {
         final int NUM_ROWS = 5;
         final int NUM_COLS = 3;
         FileWriter fileWriter = new FileWriter("phonebook.txt");
-        PrintWriter printWriter = new PrintWriter(fileWriter);
+        BufferedWriter buffer = new BufferedWriter(fileWriter);
         String[][] array = new String[NUM_COLS][NUM_ROWS];
         Scanner keyboard = new Scanner(System.in);
 
@@ -61,16 +61,24 @@ public class assignmentFour {
             city = keyboard.nextLine();
             array[2][index] = city;
         }
+        System.out.format("%-15s %-15s %-15s", "name","phone number", "city");
+        System.out.println("\n");
+        System.out.print("==========================================");
+        System.out.println("\n");
+
         for (int index = 0; index < 5; index++) {
             System.out.format("%-15s", array[0][index]);
             System.out.format("%-15s", array[1][index]);
             System.out.format("%-15s", array[2][index]);
             System.out.println("\n");
-            printWriter.print(array[0][index]);
-            printWriter.print(array[1][index]);
-            printWriter.print(array[2][index]);
-            printWriter.print("\n");
+            buffer.write(String.format("%-15s %-15s %-15s", "name","phone number", "city"));
+            buffer.write("\n");
+            buffer.write("==========================================");
+            buffer.write(String.format("%-15s",array[0][index]));
+            buffer.write(String.format("%-15s",array[1][index]));
+            buffer.write(String.format("%-15s",array[2][index]));
+            buffer.write("\n");
         }
-        printWriter.close();
+        buffer.close();
     }
 }
